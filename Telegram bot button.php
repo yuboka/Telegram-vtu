@@ -3,7 +3,7 @@ $token = "YOUR_TELEGRAM_BOT_TOKEN";
 $api = "https://api.telegram.org/bot$token/";
 $chat_id = $_GET['chat_id'];
 
-$pay_url = "https://yourdomain.com/paystack/create_payment.php?chat_id=$chat_id";
+$pay_url = "https://https://web-production-82f9a.up.railway.app/paystack/create_payment.php?chat_id=$chat_id";
 
 $data = [
     'chat_id' => $chat_id,
